@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-:root {
-  --text-dark: #111827;
-  --text-light: #6b7280;
-  --white: #ffffff;
-}
 
 * {
   padding: 0;
@@ -54,16 +49,17 @@ body {
 }
 
 .active-button i {
-  font-size: 2rem; 
+  font-size: 1.5rem; 
   margin-right: 0.5rem; 
+  color: #8b8a86;
 }
 
 .nav-button i, .active-button i {
   margin-right: 8px;
 }
 
-.nav-button:hover, .active-button:hover {
-  color: #e3d9ca;
+.nav-button:hover {
+  color: #8b8a86;
 }
 
 .nav-right {

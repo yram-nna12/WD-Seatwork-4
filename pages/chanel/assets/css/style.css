@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.headernav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 2rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-button, .active-button, .homebutton {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-dark);
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 0.6rem 1.5rem;
+  transition: background-color 0.4s;
+  display: flex;
+  align-items: center;
+}
+
+.active-button {
+  font-size: 1.1rem;
+  margin-right: -0.09rem;
+  color: #8b8a86;
+}
+
+.nav-button {
+  margin-right: -1rem;
+}
+
+.nav-button:hover {
+  color: #8b8a86;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.hero-section {
+    background-image: url('../img/chanel-herobg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding-top: 60px; 
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2.5rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.hero-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.hero-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+}
+
+.chanel-logo {
+    width: 450px;
+    margin-top: -6rem;
+}
+
+.container1 {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.first-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.photo-container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: top 0.5s ease, opacity 0.5s ease;
+}
+
+.text {
+    padding: 10px;
+}
+
+.photo-container:hover .overlay {
+    top: 0;
+    opacity: 1;
+}
+
+.container2 {
+    background-color: #ffffff;
+    padding: 40px 60px;
+}
+
+.container2 .row {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container2 .feature {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.container2 .feature.reverse {
+    flex-direction: row-reverse;
+}
+
+.container2 .column {
+    flex: 1;
+    padding: 50px;
+}
+
+.container2 .column.photo img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.15);
+}
+
+.container2 .column.description {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container2 .column.description p {
+    line-height: 1.6em;
+    color: #000000;
+    font-size: 1.8rem;
+}
+
+.container3 {
+    background-color: #f8f9fa;
+    padding: 40px 60px;
+}
+
+.container3 .row {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container3 .column {
+    flex: 1;
+    padding: 20px;
+}
+
+.container3 .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.container3 .card h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container3 .card p {
+    font-size: 1.2rem;
+    color: #666;
+}

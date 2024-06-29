@@ -53,7 +53,7 @@ body {
 
 .active-button {
   font-size: 1.1rem;
-  margin-right: -0.09rem;
+  margin-right: 1px;
   color: #8b8a86;
 }
 
@@ -223,7 +223,7 @@ body {
     border-radius: 0.5rem;
     box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.15);
     object-position: 20% 30%;
-    margin-top: -5rem;
+    margin-top: -2rem;
 }
 
 .container2 .column.description {

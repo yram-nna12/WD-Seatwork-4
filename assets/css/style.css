@@ -54,8 +54,10 @@ body {
   color: #8b8a86;
 }
 
-.nav-button i, .active-button i {
-  margin-right: 8px;
+.nav-button{
+  font-size: 1.1rem;
+  margin-right: 1px;
+  color: #000000;
 }
 
 .nav-button:hover {

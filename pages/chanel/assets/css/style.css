@@ -367,6 +367,7 @@ body {
 .container3-left .left-image img{
     width: 44rem;
 }
+
 .container3-right {
     flex: 1 1 50%; 
     max-width: 50%;
